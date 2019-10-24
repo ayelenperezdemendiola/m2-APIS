@@ -1,0 +1,71 @@
+*{
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+    padding: 0px;
+}
+.general--container{
+    background-color: lightseagreen;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.app--container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main--title{
+    background-color: white;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 5px;
+}
+.filter--label{
+    color: white;
+    font-size: 20px;
+}
+.filter--field{
+    margin: 10px;
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+    color: grey;
+    padding: 10px;
+    font-size: 16px;
+}
+.filter--btn{
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 5px;
+    border: solid 2px white;
+}
+.org--repos{
+    border-radius: 5px;
+}
+.repos--item{
+    margin: 15px;
+    text-transform: capitalize;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.repos--item:hover{
+    transform: scale(1.2);
+}
+.org--name{
+    color: white;
+    text-transform: uppercase;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Liu Jian Mao Cao', cursive;
+}
+.button{
+    background-color: blue;
+    border: solid 3px white;
+    color: white;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    font-size: 40px;
+    margin: 15px;
+}
+.app__list{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.img{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+}
+.list__item{
+    margin: 10px;
+}
+.general__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("images/background.jpg");
+    background-size: cover;
+    min-height: 100vh;
+}
+.app__container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

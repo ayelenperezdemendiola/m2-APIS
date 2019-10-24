@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.btn--dogs{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    font-size: 60px;
+    margin: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px burlywood;
+    padding: 10px;
+    margin: 10px;
+}
+.text{
+    font-family: 'Amatic SC', cursive;
+    font-size: 34px;
+}
+.dog--img{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.dog--img:hover{
+    transform: scale(1.5);
+}
+.dogs--list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
